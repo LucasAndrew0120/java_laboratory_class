@@ -1,4 +1,4 @@
-package laboratory_class;
+
 
 import java.util.Scanner;
 
