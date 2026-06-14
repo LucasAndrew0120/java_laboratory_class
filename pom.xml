@@ -15,6 +15,15 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <!-- 依赖需要放在 <dependencies> 标签内 -->
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
